@@ -11,6 +11,11 @@
 		C4356B9D28CE251A0037E280 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4356B9C28CE251A0037E280 /* ContentView.swift */; };
 		C4356B9F28CE251B0037E280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4356B9E28CE251B0037E280 /* Assets.xcassets */; };
 		C4356BA228CE251B0037E280 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4356BA128CE251B0037E280 /* Preview Assets.xcassets */; };
+		C4356BAB28CE25C30037E280 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4356BAA28CE25C30037E280 /* Info.swift */; };
+		C4356BAD28CE27820037E280 /* Tranding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4356BAC28CE27820037E280 /* Tranding.swift */; };
+		C4356BAF28CE289E0037E280 /* Sale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4356BAE28CE289E0037E280 /* Sale.swift */; };
+		C4356BB128CE29CE0037E280 /* ResponsiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4356BB028CE29CE0037E280 /* ResponsiveView.swift */; };
+		C4356BB328CE2C380037E280 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4356BB228CE2C380037E280 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		C4356B9C28CE251A0037E280 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C4356B9E28CE251B0037E280 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4356BA128CE251B0037E280 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C4356BAA28CE25C30037E280 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		C4356BAC28CE27820037E280 /* Tranding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tranding.swift; sourceTree = "<group>"; };
+		C4356BAE28CE289E0037E280 /* Sale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sale.swift; sourceTree = "<group>"; };
+		C4356BB028CE29CE0037E280 /* ResponsiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsiveView.swift; sourceTree = "<group>"; };
+		C4356BB228CE2C380037E280 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,8 @@
 		C4356B9928CE251A0037E280 /* ResponsiveUINew */ = {
 			isa = PBXGroup;
 			children = (
+				C4356BA928CE25B50037E280 /* Model */,
+				C4356BA828CE25AD0037E280 /* View */,
 				C4356B9A28CE251A0037E280 /* ResponsiveUINewApp.swift */,
 				C4356B9C28CE251A0037E280 /* ContentView.swift */,
 				C4356B9E28CE251B0037E280 /* Assets.xcassets */,
@@ -65,6 +77,25 @@
 				C4356BA128CE251B0037E280 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C4356BA828CE25AD0037E280 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4356BB028CE29CE0037E280 /* ResponsiveView.swift */,
+				C4356BB228CE2C380037E280 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4356BA928CE25B50037E280 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4356BAA28CE25C30037E280 /* Info.swift */,
+				C4356BAC28CE27820037E280 /* Tranding.swift */,
+				C4356BAE28CE289E0037E280 /* Sale.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4356BAD28CE27820037E280 /* Tranding.swift in Sources */,
+				C4356BAB28CE25C30037E280 /* Info.swift in Sources */,
+				C4356BB128CE29CE0037E280 /* ResponsiveView.swift in Sources */,
 				C4356B9D28CE251A0037E280 /* ContentView.swift in Sources */,
+				C4356BAF28CE289E0037E280 /* Sale.swift in Sources */,
 				C4356B9B28CE251A0037E280 /* ResponsiveUINewApp.swift in Sources */,
+				C4356BB328CE2C380037E280 /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
